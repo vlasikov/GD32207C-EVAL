@@ -62,6 +62,10 @@ int main(void)
     gd_eval_led_init(LED2);
     gd_eval_led_init(LED3);
     gd_eval_led_init(LED4);
+
+    gd_eval_led_off(LED2);		// off - power
+    gd_eval_led_on (LED3);
+    gd_eval_led_on(LED4);
   
     /* setup ethernet system(GPIOs, clocks, MAC, DMA, systick) */ 
     enet_system_setup();

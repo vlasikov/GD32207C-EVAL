@@ -50,8 +50,8 @@ OF SUCH DAMAGE.
 #define MAC_ADDR0   2
 #define MAC_ADDR1   0xA
 #define MAC_ADDR2   0xF
-#define MAC_ADDR3   0xE
-#define MAC_ADDR4   0xD
+#define MAC_ADDR3   6
+#define MAC_ADDR4   5
 #define MAC_ADDR5   6
  
 /* static IP address: IP_ADDR0.IP_ADDR1.IP_ADDR2.IP_ADDR3 */
